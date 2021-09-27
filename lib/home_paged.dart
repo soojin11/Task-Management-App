@@ -23,7 +23,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: _children[_currentIndex],
       bottomNavigationBar: BottomNavyBar(
         selectedIndex: _currentIndex,
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.white,
         onItemSelected: (index) {
           setState(() {
             _currentIndex = index;
